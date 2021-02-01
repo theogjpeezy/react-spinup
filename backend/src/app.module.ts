@@ -4,6 +4,8 @@ import { AppService } from './app.service';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'path';
 import { clientApp } from './config.json';
+import { MenuItemsController } from './menu-items/menu-items.controller';
+import { MenuItemsService } from './menu-items/menu-items.service';
 
 @Module({
   imports: [
@@ -12,7 +14,7 @@ import { clientApp } from './config.json';
       serveRoot: '/'
     }),
   ],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [AppController, MenuItemsController],
+  providers: [AppService, MenuItemsService],
 })
 export class AppModule {}
