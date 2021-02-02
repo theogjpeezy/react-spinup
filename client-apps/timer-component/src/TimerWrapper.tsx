@@ -23,7 +23,7 @@ export class TimerWrapper extends React.Component<ITimerWrapperProps, ITimerWrap
     public render() {
         return (<div>
             <div className="btn-group" role="group">
-                {[5,10,15].map(interval => <Button time={interval} setTimer={(time) => this.handleTimerChange(time)} />)}
+                {[5,10,15].map(interval => <Button key={interval} time={interval} setTimer={(time) => this.handleTimerChange(time)} />)}
             </div>
             <Timer time={this.state.time} />
             { this.state.time === 0 ? <h1 style={{color: 'red'}}>HONK!</h1> : <h1></h1> }

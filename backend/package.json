@@ -25,14 +25,14 @@
     "@nestjs/core": "^7.5.1",
     "@nestjs/platform-express": "^7.5.1",
     "@nestjs/serve-static": "^2.1.4",
-    "menu-component": "file:../menu-component",
-    "react-tutorial": "file:../react-tutorial",
+    "menu-component": "file:../client-apps/menu-component",
+    "react-tutorial": "file:../client-apps/react-tutorial",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.3",
-    "testapp": "file:../testapp",
-    "tooltip-component": "file:../tooltip-component",
-    "timer-component": "file:../timer-component"
+    "testapp": "file:../client-apps/testapp",
+    "tooltip-component": "file:../client-apps/tooltip-component",
+    "timer-component": "file:../client-apps/timer-component"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.5.1",
