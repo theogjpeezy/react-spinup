@@ -30,7 +30,9 @@
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.3",
-    "testapp": "file:../testapp"
+    "testapp": "file:../testapp",
+    "tooltip-component": "file:../tooltip-component",
+    "timer-component": "file:../timer-component"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.5.1",

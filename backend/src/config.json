@@ -1,5 +1,5 @@
 {
-    "clientApp": "menu-component",
+    "clientApp": "timer-component",
     "menuComponent": {
         "menuItems": [
             "Home",
